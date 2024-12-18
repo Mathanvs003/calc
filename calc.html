@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>maddy calc</title>
+    <link rel="stylesheet" href="calc.css">
+</head>
+<body>
+    <div class="container1">
+        <input type="text" id="screen" value="0">
+        <div class="buttons">
+            <button onclick="send('AC')" class="btn cmn del">AC</button>
+            <button onclick="abst()" class="btn  cmn plusneg">+/-</button>
+            <button onclick="percent()" class="btn cmn percentage">%</button>
+            <button onclick="send('/')" class="btn syml">/</button>
+            <button onclick="send('7')" class="btn num">7</button>
+            <button onclick="send('8')" class="btn num">8</button>
+            <button onclick="send('9')" class="btn num">9</button>
+            <button onclick="send('*')" class="btn syml">*</button>
+            <button onclick="send('4')" class="btn num">4</button>
+            <button onclick="send('5')" class="btn num">5</button>
+            <button onclick="send('6')" class="btn num">6</button>
+            <button onclick="send('-')" class="btn syml">-</button>
+            <button onclick="send('1')" class="btn num">1</button>
+            <button onclick="send('2')" class="btn num">2</button>
+            <button onclick="send('3')" class="btn num">3</button>
+            <button onclick="send('+')" class="btn syml">+</button>
+            <button onclick="send('0')" class="btn num zero">0</button>
+            <button onclick="send('.')" class="btn dot">.</button>
+            <button onclick="eql()" class="btn eql">=</button>
+        </div>
+    </div>
+
+    <script src="calc.js"></script>
+</body>
+</html>
+
